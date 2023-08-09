@@ -1,6 +1,6 @@
 # Programação básica - Lista 1
 
-1. Desenvolva um programa em C que mostre ao usuário a mensagem “Ola mundo!”;
+1. Desenvolva um programa em C que mostre ao usuário a mensagem “Ola mundo!”.
 
 2. Desenvolva um programa em C que pergunta um valor em metros e imprime o
 correspondente em decímetros, centímetros e milímetros.
