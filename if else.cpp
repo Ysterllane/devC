@@ -6,18 +6,14 @@ int main (){
 	
 	//comparação
 	if(numero >= 7){
-		printf("aprovado");
-	}
+		printf("aprovado");}
 	
 	//se a comparação for falsa
 	else if((numero < 7)&&(numero>=4)){ // || ou uma ou outra
-		printf("final");
-	}
+		printf("final");}
 	
 	//se a anterior for falsa tbm
-	else{
-		printf("reprovado");
-	}
+	else{ printf("reprovado");}
 	
 	return 0;
 }
