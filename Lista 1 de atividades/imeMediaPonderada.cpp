@@ -25,5 +25,5 @@ int main(){
     mediaPonderada = (notaDeMatematica*pesoDeMatematica + notaDeFisica*pesoDeFisica + notaDeQuimica*pesoDeQuimica)/(pesoDeMatematica + pesoDeQuimica + pesoDeFisica);
     printf("\nAgora eu vou te falar o valor da sua nota por meio de um calculo chamado media ponderada:%2.f\n\n",mediaPonderada);
     
-    return 0;
+    return 0 ;
 }
