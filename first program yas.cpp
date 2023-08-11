@@ -2,7 +2,7 @@
 
 int main(){
 
-	int nome;
+	char nome[10];
 	//criação de variaveis inteiras
 
 	printf("Qual seu nome?\n");
