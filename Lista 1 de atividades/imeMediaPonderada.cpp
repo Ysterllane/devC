@@ -2,7 +2,7 @@
 
 int main(){
 
-    float notaDeMatematica,pesoDeMatematica, notaDeFisica, pesoDeFisica, notaDeQuimica, pesoDeQuimica, mediaPonderada;
+    float notaDeMatematica, pesoDeMatematica, notaDeFisica, pesoDeFisica, notaDeQuimica, pesoDeQuimica, mediaPonderada;
    
     printf("Ei, agora vc eh um estudante que fez um concurso do IME, e agora vc vai me dizer sua nota de Matematica;\n\n");
     scanf("%f", &notaDeMatematica);
@@ -22,8 +22,8 @@ int main(){
     printf("\nQual o peso pra essa nota?\n\n");
     scanf("%f", &pesoDeQuimica);
     
-    mediaPonderada = (notaDeMatematica*pesoDeMatematica + notaDeFisica*pesoDeFisica + notaDeQuimica*pesoDeQuimica)/(pesoDeMatematica+pesoDeQuimica+pesoDeFisica);
-    printf("\nAgora eu vou te falar o valor da sua nota por meio de um calculo chamado media ponderada:%1.f\n\n",mediaPonderada);
+    mediaPonderada = (notaDeMatematica*pesoDeMatematica + notaDeFisica*pesoDeFisica + notaDeQuimica*pesoDeQuimica)/(pesoDeMatematica + pesoDeQuimica + pesoDeFisica);
+    printf("\nAgora eu vou te falar o valor da sua nota por meio de um calculo chamado media ponderada:%2.f\n\n",mediaPonderada);
     
     return 0;
 }
